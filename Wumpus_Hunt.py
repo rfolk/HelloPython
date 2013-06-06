@@ -187,7 +187,7 @@ while 1 :
 			print ( "Aargh!! The wumpus just ate you! :'(" )
 			break
 
-	if action == "a" :
+	if action == "f" :
 		endGame	=	doFireArrow()
 		if endGame :
 			break
